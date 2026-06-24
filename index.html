@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahrah's little gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="icon" type="image/x-icon" href="rglogo.png">
+    <script src="gallery.js" defer></script>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <img id="sign" src="rg.png">
+        <div id="prow">
+
+            <div class="paintingsholder">
+                <div class="paintings"> <img class="pp" src="lanlan.jpeg"> </div> <button class="cards"
+                    onclick="showPopup('lanlan')"></button>
+            </div>
+
+            <div class="paintingsholder">
+                <div class="paintings"> <img class="pp" src="rahrah.png" id="th"> </div> <button class="cards"
+                    onclick="showPopup('thrthr')"></button>
+            </div>
+
+            <div class="paintingsholder">
+                <div class="paintings"> <img class="pp" src="Lk (3).jpeg"> </div> <button class="cards"
+                    onclick="showPopup('noni')"></button>
+            </div>
+
+            <div class="paintingsholder">
+                <div class="paintings"> <img class="pp" src="nimnim.jpg"> </div> <button class="cards"
+                    onclick="showPopup('nimnim')"></button>
+            </div>
+
+        </div>
+        <div><button id="left" onclick="goLeft()" class="navv">≺ </button><button id="right" onclick="goRight()"
+                        class="navv">≻ </button></div>
+    </div>
+
+
+    <!--popups-->
+    <!-- Pop-up 1 -->
+    <div id="lanlan" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('lanlan')">&times;</span>
+            <p class="metadata">Name of the painting:Hugs,Wishes & Cake💜🎂</p>
+            <div id="message">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua."</div>
+            <p class="metadata">by:Lanlan</p>
+        </div>
+    </div>
+
+
+
+    <div id="thrthr" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('thrthr')">&times;</span>
+            <p class="metadata">Name of the painting: Level 20: Forever Friends</p>
+            <div id="message">"Through levels 0-14 you were on your own, at level 14 we met and became friends and since
+                then we've been together through every level. THrough the hardships, the funny moment, everything. Right now we
+                are at level 20 and our friendship is getting stronger and stronger, I hope we will be together until
+                level 100! wishing you the happiest birthday ever love ヾ(≧▽≦*)o"</div>
+            <p class="metadata">by: Atheer</p>
+        </div>
+    </div>
+
+
+    <div id="noni" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('noni')">&times;</span>
+            <p class="metadata">Name of the painting:3</p>
+            <div id="message">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua."</div>
+            <p class="metadata">by:</p>
+        </div>
+    </div>
+
+
+    <div id="nimnim" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('nimnim')">&times;</span>
+            <p class="metadata">Name of the painting:The boy beneath the swirling sky</p>
+            <div id="message">"Like a sky filled with swirling stars, your presence brings light, color, and wonder to
+                the lives around you. May this year be painted with bold adventures, golden moments, and the kind of joy
+                that shines as brightly as a star over a quiet night."</div>
+            <p class="metadata">by:Nimnim</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
