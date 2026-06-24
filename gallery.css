@@ -171,49 +171,49 @@ border-style: solid none solid none;
 }
 
 
-@media only screen and  (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
-   body{
-     min-height: 100vh;
-     height: auto;
-}
-#sign{
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-#prow{
+    #main{
+       margin-top: 50px ;
+        gap:1%;
 
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- align-items:center ; 
- height: auto;
- width: 80%;
- gap: 80px;
+    }
+    .paintingsholder {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 85%;
+        max-width: 100%;
+        flex: 0 0  20em;
+    }
 
-}
-.paintingsholder{
-    height: auto;
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-.paintings{
-width: 100%;
-min-height: 50%;
-}
-.cards{
-width: auto;
-height: auto;
-padding: 0.7rem 1.4rem; 
- justify-content: center;
- align-items:center ; 
-}
+    .paintings {
 
-.popup-content {
-    width: 70%;
-    height: auto;
-}
+        width: 80%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+
+
+    }
+
+    #sign{
+
+        width: 80%;
+    }
+
+    .cards{
+
+     min-width: 70px;
+    min-height: 35px;
+
+    }
+
+    .popup-content{
+
+        width: 80%;
+
+    }
+
+
 }
