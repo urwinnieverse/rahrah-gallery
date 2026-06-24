@@ -21,22 +21,36 @@ window.addEventListener("click", function (event) {
 let currentShift = 0;
 
 function goRight() {
-    currentShift -= 1130;
     const paintings = document.querySelectorAll(".paintingsholder");
+
+        if(window.innerWidth<600){
+        currentShift -= 320;
+        }
+        else{
+        currentShift -= 1130;
+        }
     
     paintings.forEach(painting => {
+
         painting.style.transform = `translateX(${currentShift}px)`;
-        painting.style.transition = "transform 2s ease-in-out"; // Makes it smooth!
+        painting.style.transition = "transform 2s ease-in-out"; 
     });
 }
 
 
 function goLeft() {
-    currentShift += 1130; 
     const paintings = document.querySelectorAll(".paintingsholder");
     
+          if(window.innerWidth<600){
+        currentShift += 320;
+        }
+        else{
+           currentShift += 1130; 
+        }
+   
     paintings.forEach(painting => {
         painting.style.transform = `translateX(${currentShift}px)`;
-        painting.style.transition = "transform 2s ease-in-out"; // Makes it smooth!
+        painting.style.transition = "transform 2s ease-in-out"; 
+
     });
 }
