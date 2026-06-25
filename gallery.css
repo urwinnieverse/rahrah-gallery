@@ -174,8 +174,9 @@ border-style: solid none solid none;
 @media only screen and (max-width: 600px) {
 
     body{
-
-         background-size: 50%;
+   
+   background-size: 50%;
+         
     }
 
     #main{
@@ -187,9 +188,9 @@ border-style: solid none solid none;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        width: 75%;
+        width: 85%;
         max-width: 100%;
-        flex: 0 0  22em;
+        flex: 0 0  20em;
     }
 
     .paintings {
@@ -217,22 +218,6 @@ border-style: solid none solid none;
     .popup-content{
 
         width: 80%;
-
-    }
-
-    #left{
-
-position-area: bottom left;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        
-    }
-    #right{
-
-        
-    position-area: bottom right;
-    margin-right: 20px;
-                margin-bottom: 20px;
 
     }
 
