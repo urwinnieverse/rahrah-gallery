@@ -223,12 +223,18 @@ border-style: solid none solid none;
     #left{
 
 position-area: bottom left;
+        margin-left: 20px;
+        margin-bottom: 20px;
         
     }
     #right{
 
         
-    position-area: bottom right;}
+    position-area: bottom right;
+    margin-right: 20px;
+                margin-bottom: 20px;
+
+    }
 
 
 }
