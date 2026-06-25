@@ -184,7 +184,7 @@ border-style: solid none solid none;
         justify-content: space-evenly;
         width: 90%;
         max-width: 100%;
-        flex: 0 0  20em;
+        flex: 0 0  22em;
     }
 
     .paintings {
@@ -214,6 +214,11 @@ border-style: solid none solid none;
         width: 80%;
 
     }
+
+    #left,#right{
+
+        
+    position-area: bottom center;}
 
 
 }
