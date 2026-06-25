@@ -215,10 +215,15 @@ border-style: solid none solid none;
 
     }
 
-    #left,#right{
+    #left{
+
+position-area: bottom left;
+        
+    }
+    #right{
 
         
-    position-area: bottom center;}
+    position-area: bottom right;}
 
 
 }
