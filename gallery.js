@@ -27,7 +27,7 @@ function goRight() {
         currentShift -= 320;
         }
         else{
-        currentShift -= 1130;
+        currentShift -= 1135;
         }
     
     paintings.forEach(painting => {
@@ -45,7 +45,7 @@ function goLeft() {
         currentShift += 320;
         }
         else{
-           currentShift += 1130; 
+           currentShift += 1135; 
         }
    
     paintings.forEach(painting => {
